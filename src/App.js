@@ -1,6 +1,6 @@
 import './App.scss';
 import { useState } from 'react';
-import bear from './assets/bear.jpg';
+import bear from './assets/bear.gif';
 import kiss from './assets/bearskissing.gif';
 
 function App() {
