@@ -38,8 +38,8 @@ function App() {
       <img className='bear' src={bear} alt='bear'/>
         <p>Will you be my Valentine?</p>
         <div className='buttonContainer'>
-        <button onClick={()=>setYesPressed(true)}>Si</button>
-        <button onClick={handleNoClick}>{getNoButtonText()}</button>
+        <button style={{fontSize: yesButtonSize}} onClick={()=>setYesPressed(true)}>Si</button>
+        <button className="noButton" onClick={handleNoClick}>{getNoButtonText()}</button>
         </div>
         </>
         )
