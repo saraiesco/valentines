@@ -23,3 +23,25 @@
 .bear{
   max-width: 200px;
 }
+
+.noButton{
+  background-color: rgb(153, 11, 11);
+  color: white;
+  border: 1px solid  rgb(153, 11, 11);
+  border-radius: 6px;
+  box-shadow: rgb(153, 11, 11) 1px 0;  cursor: pointer;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+
+}
+
+.yesButton{
+  background-color: rgb(5, 196, 94);
+  color: white;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;  cursor: pointer;
+  padding: 1rem 2rem;
+
+
+}
