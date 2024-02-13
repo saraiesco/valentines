@@ -1,12 +1,14 @@
 import './App.scss';
+import { useState } from 'react';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <b><p>
           Valentines
-        </p>
+        </p></b>
+        <p>Will you be my Valentine?</p>
       </header>
     </div>
   );
