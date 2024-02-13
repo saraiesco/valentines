@@ -33,7 +33,7 @@ function App() {
         </>) :(
           <>
         <b><p>
-          Valentines
+          Happy Valentines Day
         </p></b>
       <img className='bear' src={bear} alt='bear'/>
         <p>Will you be my Valentine?</p>
