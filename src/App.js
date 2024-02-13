@@ -28,8 +28,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         { yesPressed?(<>
-        <img src={kiss} alt="love"/>
-        <div>Yayyyy!!! besos besos</div>
+        <img className='bear2' src={kiss} alt="love"/>
+        <b><div className='yay'>Yayyyy!!! besos besos</div></b>
         </>) :(
           <>
         <b><p>
